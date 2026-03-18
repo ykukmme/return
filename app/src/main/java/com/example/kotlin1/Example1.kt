@@ -1,5 +1,6 @@
 package com.example.kotlin1
 
+//함수
 fun main() {
     println("hello world")
     val result = test(10, c= 1)
