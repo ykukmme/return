@@ -15,12 +15,12 @@ class Kid(override val name: String, override var age: Int) : User(name, age) {
     var gender: String = "male"
     
     init {
-        println("초기화")
+        println("reboot")
     }
 
     //2차 생성자
     constructor(name: String, age: Int, gender: String) : this(name, age){
         this.gender = gender
-        println("2차 생성자 호출")
+        println("second")
     }
 }
