@@ -8,6 +8,7 @@ fun main() {
 }
 
 fun times(a: Int, b: Int, ) = a * b
+
 fun test3(a: Int, b: Int) = a+b
 
 fun test2(name: String, nickname: String, id: String) = println(name + nickname + id)
