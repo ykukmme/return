@@ -7,10 +7,7 @@ fun main() {
     test2("kim", "km", "1515")
 }
 
-fun times(a: Int, b: Int): Int{
-    return a * b
-}
-
+fun times(a: Int, b: Int) = a * b
 fun test3(a: Int, b: Int) = a+b
 
 fun test2(name: String, nickname: String, id: String) = println(name + nickname + id)
