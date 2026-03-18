@@ -2,6 +2,7 @@ package com.example.kotlin1
 
 import java.time.DayOfWeek
 
+//조건문
 fun main() {
     max(10, 17)
     isHoliday("목")
